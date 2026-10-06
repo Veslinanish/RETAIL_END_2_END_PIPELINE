@@ -1,0 +1,16 @@
+import pandas as pd
+
+df = pd.read_csv(r"C:\retail data engineer\data\SampleSuperstore.csv")
+print("HEAD")
+print(df.head())
+print("TAIL")
+print(df.tail())
+print("INFORMATION")
+print(df.info())
+print("DESCRIPTION")
+print(df.describe())
+print("  ")
+print(df.columns)
+print("      ")
+print("       ")
+print(df.shape)
