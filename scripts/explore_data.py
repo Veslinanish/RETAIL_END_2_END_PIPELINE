@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\retail data engineer\data\SampleSuperstore.csv")
+df = pd.read_csv(r"C:\retail data engineer\data\SampleSuperstore_Dirty.csv")
 print("HEAD")
 print(df.head())
 print("TAIL")
